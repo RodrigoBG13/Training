@@ -231,6 +231,7 @@ public class Main {
                 System.out.println("\n"+j2+", você escolhe Pedra, Papel ou Tesoura?\n");
                 System.out.println("1 - Pedra\n2 - Papel\n3 - Tesoura");
                 opc2=(int)Math.floor(Math.random()*(3-1+1)+1);
+                System.out.println(opc2);
                   if(opc2==0){
                   playing=0;running=0;
                   System.out.println("\n=== Placar Final ===\n"+"Jogadas: "+po.getJogadas()
